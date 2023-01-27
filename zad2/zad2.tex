@@ -1,0 +1,146 @@
+\documentclass{beamer}
+\usepackage[MeX]{polski} 
+\title{Zadanie 2}
+\author{Dawid Roszman}
+\institute{UG}
+\date{2022}
+\usetheme{AnnArbor}
+\usecolortheme{seahorse}
+\graphicspath{ {./images/} }
+\usepackage{adjustbox}
+\renewcommand{\footnotesize}{\tiny} 
+
+\begin{document}
+	
+	\frame{\titlepage}
+	\begin{frame}
+		\frametitle{Spis treści}
+		\tableofcontents
+	\end{frame}
+
+\section{Slajd 1}
+	\begin{frame}
+		\frametitle{Slajd 1}
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac porttitor mi. Aliquam sit amet semper ante. Vivamus rhoncus volutpat metus a tincidunt. Nunc elementum odio at sem pulvinar ultrices. Ut dictum convallis erat, placerat gravida erat ornare dignissim. Vivamus eros ex, fringilla nec hendrerit a, aliquet nec massa. Aliquam ac mi vitae velit consectetur cursus. In dapibus bibendum augue, quis aliquet mi ullamcorper at. Duis ac purus iaculis, facilisis ligula ut, dictum quam. Cras eu sem a ex posuere tincidunt. Proin vulputate ut dolor non dapibus. Ut vitae orci ullamcorper, pharetra enim eget, fermentum sapien.
+		\begin{enumerate}
+			\item 1
+			\item 2
+			\item 3
+		\end{enumerate}
+	\end{frame}
+
+\section{Slajd 2}
+	\begin{frame}{Slajd 2}
+		Morbi turpis leo, aliquet nec massa ut, molestie scelerisque dui. Quisque augue lacus, dapibus vitae diam non, efficitur euismod libero. Duis ac libero sodales, mattis sapien vitae, iaculis sapien. Nulla efficitur elit justo, accumsan fringilla tortor sollicitudin eget. Suspendisse sagittis, mauris in consectetur ultrices, augue arcu consequat dui, auctor aliquet turpis nisl in libero. Sed hendrerit aliquet lorem, non varius arcu. Fusce mattis mattis augue, in dictum urna mattis ac. Aenean feugiat nunc vel convallis mattis. Sed pellentesque porttitor maximus. Nam congue hendrerit sollicitudin. Etiam dolor est, dictum dapibus efficitur ac, mollis a odio.
+		\begin{table}
+			\hfill
+		\begin{tabular}{|c||c||c|}
+			\hline
+			r1 & r2 & r3 \\ 
+			\hline
+			1 & 2 & 3\\ 
+			\hline
+			4 & 5 & 6\\ 
+			\hline
+		\end{tabular}
+		\end{table}
+	\end{frame}
+
+\section{Slajd 3}
+	\begin{frame}
+		\frametitle{Slajd 3}
+			 Vestibulum vehicula velit mi, a lacinia nunc interdum dignissim. Donec id lacinia risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur risus lectus, porta tempor auctor a, ultricies ac erat. Donec nunc magna, ornare eu dui id, interdum elementum nisi. Vivamus nec tellus sit amet nunc tempor congue sit amet non risus. Donec condimentum vestibulum ex, vel rutrum quam ornare quis. Aenean vitae metus quam
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\adjincludegraphics[width=.6\linewidth, valign=t]{img1.jpg}
+				\label{fig: LaTex}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\\\begin{itemize}
+					\item Jeden
+					\item Dwa
+					\item Trzy
+					\item Cztery
+				\end{itemize}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+\section{Slajd 4}
+	\begin{frame}
+		\frametitle{Slajd 4}
+        Cras pellentesque, nisl vel tristique aliquam, odio ex rhoncus ex, a vestibulum mauris tellus sollicitudin ex. Nullam ipsum elit, auctor sed pellentesque ac, facilisis finibus ex. Nam non vulputate velit. Nam enim nibh, elementum id ex sed, consectetur semper tellus. Proin nec lectus varius, lacinia elit vel, dictum eros. Etiam at quam facilisis, convallis tellus et, placerat massa.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=5cm, height=3cm]{img2.jpg}
+			\caption{IMG 2}
+			\label{fig: img2}
+		\end{figure}
+	\end{frame}
+
+\section{}
+	\begin{frame}
+		\frametitle{Slajd 5}
+			\begin{columns}[t]
+				\begin{column}{.5\textwidth}
+					\\\adjincludegraphics[width=.8\linewidth, valign=t]{img3.jpg}
+					\newline
+					\label{fig: img3}
+				\end{column}
+				\begin{column}{.5\textwidth}
+					\begin{enumerate}
+						\item lorem
+						\item impsum
+						\item lorem
+					\end{enumerate}
+				\end{column}
+			\end{columns}
+	\end{frame}
+
+
+\begin{frame}{Slajd6}
+\begin{columns}[T]
+	\column{0.99\textwidth}
+	\begin{itemize}
+		\item Lorem
+		\item Ipsum
+		\item Dolores
+	\end{itemize}
+	
+	\column{0.01\textwidth}
+	\hspace*{-5cm}
+	\includegraphics[width=5cm]{img4.jpg}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Slajd7}
+	\begin{columns}
+		\column{0.01\textwidth}
+		\begin{figure}
+			\hspace*{-3cm}
+			\includegraphics[width=4cm]{img6.jpg}
+			\caption{img6.jpg}
+		\end{figure}
+		
+		\column{0.01\textwidth}
+		\begin{figure}
+			\caption{bee}
+			\hspace*{-2cm}
+			\includegraphics[width=4cm]{img7.jpg}
+			
+		\end{figure}
+	\end{columns}
+\end{frame}
+
+\section{Sources}
+\begin{frame}{Bibliografia}
+\begin{thebibliography}{10}
+	\bibitem{Lorem}Lorem, ``Ipsum," \emph{Etiam sagittis vitae purus et congue}, pp. 444, June 2011.
+	\bibitem{Lorem}Ipsum, ``Dolores," \emph{Sentiam vitae purus et hingue}, pp. 222, June 2010.
+\end{thebibliography}
+\end{frame}
+
+
+
+\end{document}
